@@ -15,8 +15,6 @@ This requires having a Gemini API key which can be aquired here https://aistudio
 - System Instructions
 - conversation theory
 
-A note that uploading files or vision will add to your openAI storage. 
-
 ### Configuration
 
 When running on streamlit cloud this can be configured for a secret key and your API key
