@@ -1,0 +1,7 @@
+streamlit
+openai
+youtube-transcript-api
+beautifulsoup4
+requests
+pymupdf
+google-genai
