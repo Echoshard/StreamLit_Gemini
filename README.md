@@ -11,9 +11,7 @@ This requires having a Gemini API key which can be aquired here https://aistudio
 - File upload
 - Vision
 - Image Generation `gemini-2.0-flash-exp-image-generation` only
-- private Keying
 - System Instructions
-- conversation theory
 
 ### Configuration
 
