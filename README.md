@@ -10,15 +10,17 @@ This requires having a Gemini API key which can be aquired here https://aistudio
 - youtube transcript scraping `Local only static IP's are blocked`
 - File upload
 - Vision
-- Image Generation `gemini-2.0-flash-exp-image-generation` only
-- System Instructions
+- Image generation `gemini-2.0-flash-exp-image-generation only` 
+- System instructions
+- Google search tool with sources
+- Gemini 2.5
 
 ### Configuration
 
 When running on streamlit cloud this can be configured for a secret key and your API key
 
 ```
-API_KEY = "GEMINI_KEY"
+gemini_key = "GEMINI_KEY"
 SECRET_KEY = "SECRET"
 ```
 You can also run it locally by setting the keys or on another service using environment variables just uncomment and comment what you need.
@@ -39,7 +41,7 @@ www.yourStreamLitAssistant.com/?secretkey=SECRET
 ```
 
 ```
- python -m streamlit run PATH:\\AssistantChatStreamLit.py
+ python -m streamlit run PATH:\\Gemini_StreamLit_Chat.py
 ```
 
 # Hosting your App:
